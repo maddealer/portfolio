@@ -1,10 +1,147 @@
 .container {
     display: flex;
+    flex-direction: column;
     width: 100vw;
     max-width: 940px;
-    height: 100vh;
+    min-height: 100vh;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #ebe9e7;
+    margin: 0;
+    font-family: 'Krub', sans-serif;
+
+}
+
+.sloganTitle {
+    display: flex;
+    width: 100vw;
+    max-width: 940px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(197, 197, 252);
-    margin: 0
+    margin: 0;
+    font-family: 'Krub', sans-serif;
+    color: #253d5a;
+
+}
+
+.projectsCards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projectHeader {
+    display: flex;
+    width: 90%;
+    justify-content: right;
+    font-family: 'Krub', sans-serif;
+    color: #253d5a;
+    font-size: 2rem;
+
+}
+
+.card {
+
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px #616161;
+    background-color: blueviolet;
+    margin-right: 1px;
+    margin-bottom: 15px;
+}
+
+.sloganL {
+
+    font-family: 'Great Vibes', cursive;
+    font-size: 13rem;
+}
+
+.sloganR {
+
+
+    font-family: 'Krub', sans-serif;
+    font-size: 2.5rem;
+}
+
+.slogan2 {
+
+
+    font-family: 'Krub', sans-serif;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 992px) {
+
+
+
+    .sloganL {
+
+        font-family: 'Great Vibes', cursive;
+        font-size: 13rem;
+    }
+
+    .sloganR {
+
+        font-family: 'Krub', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .slogan2 {
+
+
+        font-family: 'Krub', sans-serif;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .sloganL {
+
+        font-family: 'Great Vibes', cursive;
+        font-size: 7rem;
+    }
+
+    .sloganR {
+
+        font-family: 'Krub', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .slogan2 {
+
+
+        font-family: 'Krub', sans-serif;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+
+    .sloganL {
+
+        font-family: 'Great Vibes', cursive;
+        font-size: 4rem;
+    }
+
+    .sloganR {
+
+        font-family: 'Krub', sans-serif;
+        font-size: 1.1rem;
+    }
+
+    .slogan2 {
+
+
+        font-family: 'Krub', sans-serif;
+        font-size: 1.1rem;
+    }
+
 }
