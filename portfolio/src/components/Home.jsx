@@ -18,18 +18,15 @@ const Home = () => {
         </div>
         <p className={styles.projectHeader}> Projects</p>
         <div className={styles.projectsCards}>
-          <div className={styles.card}>
+          <div className={`${styles.card} ${styles.match}`}>
             {" "}
             <div className={styles.ribbon}>Match Predictor</div>
-            <p>This is a card with a ribbon.</p>
           </div>
-          <div className={styles.card}>
+          <div className={`${styles.card} ${styles.bjbot}`}>
             <div className={styles.ribbon}>BlackJack Bot</div>
-            <p>This is a card with a ribbon.</p>
           </div>
-          <div className={styles.card}>
+          <div className={`${styles.card} ${styles.github}`}>
             <div className={styles.ribbon}>My GitHub</div>
-            <p>This is a card with a ribbon.</p>
           </div>
         </div>
         <p className={styles.slogan2}>
