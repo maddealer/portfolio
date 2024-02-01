@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Menu.css"; // You can define your styles in a separate CSS file
 import IMAGES from "../images/IMAGES";
+import { Link } from "react-router-dom";
 
 const HamburgerMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,12 +14,10 @@ const HamburgerMenu = () => {
     <div className="header">
       <div className="logo">
         {" "}
-        <img
-          src={IMAGES.image1}
-          alt="first image"
-          width={50}
-          height={50}
-        />{" "}
+        <Link to="/">
+          {" "}
+          <img src={IMAGES.image1} alt="first image" width={50} height={50} />
+        </Link>
       </div>
       <div className="title">Hristomir H Portfolio</div>
       <div
@@ -37,8 +36,14 @@ const HamburgerMenu = () => {
       </div>
       <div className={`menu ${isMenuOpen ? "open" : ""}`}>
         <ul>
-          <li>Home</li>
-          <li>About</li>
+          <Link to="/">
+            {" "}
+            <li>Home</li>
+          </Link>
+          <Link to="/about">
+            {" "}
+            <li>About Me</li>
+          </Link>
         </ul>
       </div>
     </div>

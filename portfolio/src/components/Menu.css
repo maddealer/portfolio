@@ -5,6 +5,13 @@
     padding: 10px;
     background-color: #ebe9e7;
     color: #253d5a;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 99%;
+    max-width: 940px;
+    padding: 0;
+    padding-top: 3px;
 }
 
 .logo {
@@ -17,7 +24,7 @@
 .title {
     font-family: 'Krub', sans-serif;
     font-size: 1.3rem;
-    font-weight: bold;
+    font-weight: 400;
 
 }
 
@@ -45,7 +52,7 @@
     right: 0;
     height: 100%;
     width: 200px;
-    background-color: #ebe9e7;
+    background-color: #cccccc;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -64,6 +71,7 @@
     font-size: 18px;
     cursor: pointer;
     transition: 0.3s;
+    color: #253d5a;
 }
 
 .menu li:hover {
