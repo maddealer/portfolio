@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import HamburgerMenu from "./Menu";
+import Footer from "./Footer";
 const Home = () => {
   return (
     <>
@@ -36,6 +37,7 @@ const Home = () => {
           part is discovering the solution.
         </p>
       </div>
+      <Footer />
     </>
   );
 };

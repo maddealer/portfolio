@@ -1,0 +1,33 @@
+.footer {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    width: 300px;
+    margin: 0 20px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    font-family: 'Krub', sans-serif;
+    color: #253d5a;
+    font-size: 0.8rem;
+    text-align: center;
+}
