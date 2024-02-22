@@ -111,7 +111,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .match {
@@ -151,6 +151,53 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.7;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 350px;
+    margin-bottom: 30px;
+}
+
+.one {
+    width: 90%;
+    max-width: 475px;
+    height: 90%;
+    background-size: cover;
+    margin: 10px 15px;
+    min-width: 300px;
+    min-height: 300px;
+    background-image: url('../images/matchbg.png');
+}
+
+.two {
+    width: 90%;
+    max-width: 475px;
+    height: 90%;
+    background-size: cover;
+    margin: 10px 15px;
+    min-width: 300px;
+    min-height: 300px;
+    background-image: url('../images/bjbg.png');
+}
+
+.three {
+    width: 90%;
+    max-width: 475px;
+    height: 90%;
+    background-size: cover;
+    margin: 10px 15px;
+    min-width: 300px;
+    min-height: 300px;
+    background-image: url('../images/maddealer.jpg');
+}
+
+.onetext {
+    color: #ffffff;
 }
 
 @media screen and (max-width: 992px) {
